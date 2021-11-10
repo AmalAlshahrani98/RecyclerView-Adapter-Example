@@ -25,11 +25,11 @@ class MainActivity : AppCompatActivity() {
         // TODO [4] Add student images to the drawable file
         // TODO [5] Insert Data to the ArrayList
         studentList.add(Student("Abdullah", R.drawable.ic_android))
-        studentList.add(Student("Abdullah", R.drawable.ic_android))
-        studentList.add(Student("Abdullah", R.drawable.ic_android))
-        studentList.add(Student("Abdullah", R.drawable.ic_android))
-        studentList.add(Student("Abdullah", R.drawable.ic_android))
-        studentList.add(Student("Abdullah", R.drawable.ic_android))
+        studentList.add(Student("Nourah", R.drawable.ic_emoji))
+        studentList.add(Student("Raghad", R.drawable.ic_android))
+        studentList.add(Student("Amal", R.drawable.ic_emoji))
+        studentList.add(Student("Fahad", R.drawable.ic_android))
+        studentList.add(Student("Ahmed", R.drawable.ic_emoji))
 
         // TODO [6] Create an adapter reference
         val adapter = StudentAdapter(studentList)
